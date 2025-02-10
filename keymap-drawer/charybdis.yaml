@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - {t: '[', h: FBUTTONS_LAYER}
   - {t: '`', h: Ctrl}
   - A
   - S
@@ -94,7 +94,7 @@ layers:
   - KP MINUS
   - Vol Up
   - Home
-  - Gui+Sft+ 4
+  - Gui+Sft+4
   - Page Up
   - BRI INC
   - BRI DN
@@ -197,10 +197,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Middle Click
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -283,10 +283,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Middle Click
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -326,10 +326,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Middle Click
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -343,18 +343,61 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  FBUTTONS_LAYER:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - RIGHT SHIFT
+  - Ctrl
+  - Alt
+  - Gui
+  - {type: held}
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-- p: [4, 16]
+- p: [4, 5]
   k: (
-- p: [7, 19]
+- p: [7, 6]
   k: )
-- p: [3, 15]
+- p: [16, 17]
   k: '['
-- p: [8, 20]
+- p: [18, 19]
   k: ']'
-- p: [2, 14]
+- p: [28, 29]
   k: '{'
-- p: [9, 21]
+- p: [30, 31]
   k: '}'
 - p: [17, 18]
   k: Caps Word
@@ -372,3 +415,19 @@ combos:
   k: Middle Click
 - p: [21, 22]
   k: Middle Click
+- p: [15, 16]
+  k: '"'
+- p: [19, 20]
+  k: ''''
+- p: [0, 12]
+  k: '~'
+- p: [12, 24]
+  k: '`'
+- p: [3, 4]
+  k: '-'
+- p: [2, 3]
+  k: +
+- p: [7, 8]
+  k: _
+- p: [9, 8]
+  k: '|'
