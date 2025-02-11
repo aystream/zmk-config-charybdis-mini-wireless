@@ -39,9 +39,9 @@ layers:
   - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
   - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
+  - {t: Esc, h: IDEA}
   - {t: ⌫, h: Shift}
-  - {t: ⌦, h: IDEA}
+  - {t: ⌦, h: raise}
   lower:
   - {t: F1, h: Gui}
   - F2
@@ -398,7 +398,7 @@ layers:
   - {t: ▽, type: trans}
   - '&open_find_files'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F17
   - {t: ▽, type: trans}
   - '&intellij_open_terminal'
   - '&rectangle_left_half'
@@ -410,17 +410,15 @@ layers:
   - '&go_forward'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F18
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&switch_windows'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F16
+  - F23
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -429,6 +427,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [4, 5]
   k: (

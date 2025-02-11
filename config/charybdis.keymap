@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define U_TAPPING_TERM 200
 #define DEF 0
@@ -317,10 +318,10 @@
 
         default_layer {
             bindings = <
-&mt LGUI RBKT    &kp Q  &kp W  &kp E        &kp R            &kp T          &kp Y        &kp U           &kp I      &kp O    &kp P     &lt 8 LBKT
-&mt LCTRL GRAVE  &kp A  &kp S  &kp D        &kp F            &kp G          &kp H        &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LALT MINUS   &kp Z  &kp X  &kp C        &kp V            &kp B          &kp N        &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
-                               &lt RSE TAB  &mt LSHFT SPACE  &lt LWR RET    &lt LWR ESC  &mt RSHFT BSPC  &lt 9 DEL
+&mt LGUI RBKT    &kp Q  &kp W  &kp E        &kp R            &kp T          &kp Y      &kp U           &kp I      &kp O    &kp P     &lt 8 LBKT
+&mt LCTRL GRAVE  &kp A  &kp S  &kp D        &kp F            &kp G          &kp H      &kp J           &kp K      &kp L    &kp SEMI  &mt RCTRL SQT
+&mt LALT MINUS   &kp Z  &kp X  &kp C        &kp V            &kp B          &kp N      &kp M           &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
+                               &lt RSE TAB  &mt LSHFT SPACE  &lt LWR RET    &lt 9 ESC  &mt RSHFT BSPC  &lt 2 DEL
             >;
         };
 
@@ -398,9 +399,9 @@
 
         IDEA {
             bindings = <
-&trans  &trans                   &trans                &trans                 &trans            &trans             &trans         &trans    &trans       &open_find_files  &trans  &trans
-&trans  &intellij_open_terminal  &rectangle_left_half  &rectangle_right_half  &intellij_rename  &intellij_debug    &intellij_run  &go_back  &go_forward  &trans            &trans  &trans
-&trans  &trans                   &trans                &trans                 &trans            &switch_windows    &trans         &trans    &trans       &trans            &trans  &trans
+&trans  &trans                   &trans                &trans                 &trans            &trans             &trans         &trans    &trans       &open_find_files  &trans  &kp F17
+&trans  &intellij_open_terminal  &rectangle_left_half  &rectangle_right_half  &intellij_rename  &intellij_debug    &intellij_run  &go_back  &go_forward  &trans            &trans  &kp F18
+&trans  &trans                   &trans                &trans                 &trans            &switch_windows    &kp F16        &kp F23   &trans       &trans            &trans  &trans
                                                        &trans                 &trans            &trans             &trans         &trans    &trans
             >;
         };
