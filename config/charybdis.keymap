@@ -141,8 +141,7 @@
         open_find_files: open_find_files {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LG(LS(O))>;
-
+            bindings = <&kp LG(LS(O))>;
             label = "OPEN_FIND_FILES";
         };
     };
